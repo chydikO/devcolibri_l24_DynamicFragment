@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/fragment"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textColor="@color/black"
         android:layout_gravity="center">
     </TextView>
@@ -49,6 +49,26 @@
             android:text="@string/rem_fragment"
             android:textSize="16sp"/>
     </LinearLayout>
+
+    <Switch
+        android:id="@+id/switch_back_stage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginBottom="10dp"
+
+        android:checked="false"
+        android:minHeight="48dp"
+        android:switchPadding="60dp"
+        android:text="@string/back_stack"
+        android:textColor="@color/black"
+        android:textOff="@string/no"
+        android:textOn="@string/yes">
+
+    </Switch>
 
     <LinearLayout
         android:id="@+id/container"
